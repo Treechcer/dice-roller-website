@@ -4,6 +4,7 @@ function rollTheDice(){
 }
 
 function display(num){
+    nullAll();
     if (num == 1){
         for (let i = 1; i <= 9; i++){
             if (i == 5){
@@ -65,9 +66,15 @@ function display(num){
     }
 }
 
+function Main(){
+    let num = rollTheDice();
+    display(num);
+}
 
-window.onload = function(){
+function nullAll(){
     for (let i = 1; i <= 9; i++){
         document.getElementById(i).style.visibility = "hidden"
     }
 }
+
+window.onload = nullAll();
