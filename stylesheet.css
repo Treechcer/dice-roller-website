@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.dot{
+    border-radius: 50%;
+    background-color: brown;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.dice{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    border-color: black;
+    border: 5px solid;
+    border-radius: 7px;
+    box-shadow: 7px 7px darkgray;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button{
+    margin-top: 20px;
+}
