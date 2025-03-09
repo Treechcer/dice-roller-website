@@ -6,7 +6,7 @@ body{
 
 .dot{
     border-radius: 50%;
-    background-color: brown;
+    background-color: white;
     width: 25px;
     height: 25px;
     display: inline-block;
